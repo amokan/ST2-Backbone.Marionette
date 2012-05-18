@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:name} extends Backbone.Marionette.AppRouter() ->
-  #appRoutes:
-    #"some/route": "someMethod"
+${1:MyRouter} = Backbone.Marionette.AppRouter.extend(
+  appRoutes:
+    "some/route": "someMethod"
+)
 ]]></content>
     <tabTrigger>bmarc</tabTrigger>
     <scope>source.coffee</scope>

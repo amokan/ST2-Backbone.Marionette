@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1:appName}.addRegions({${0:properties}});
+${1:MyApp}.addRegions({
+  foo: "#foo"
+});
 ]]></content>
     <tabTrigger>bmr</tabTrigger>
     <scope>source.js</scope>

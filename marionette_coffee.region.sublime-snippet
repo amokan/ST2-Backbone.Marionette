@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:appName}.addRegions ->
-  ${0:properties}
+${0:MyApp}.addRegions ->
+  foo: "#foo"
 ]]></content>
     <tabTrigger>bmrc</tabTrigger>
     <scope>source.coffee</scope>

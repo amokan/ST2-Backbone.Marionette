@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Backbone.Model
-]]></content>
-    <tabTrigger>bm</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>Backbone Model</description>
-</snippet>

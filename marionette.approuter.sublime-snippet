@@ -1,6 +1,10 @@
 <snippet>
     <content><![CDATA[
-Backbone.Marionette.AppRouter.extend({appRoutes:{${0:properties}}});
+${1:MyRouter} = Backbone.Marionette.AppRouter.extend({
+  appRoutes:{
+    "some/route": "someMethod"
+  }
+});
 ]]></content>
     <tabTrigger>bmar</tabTrigger>
     <scope>source.js</scope>

@@ -1,10 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1:appName}.module("${2:moduleName}", function(${2:moduleName}, ${1:appName}, Backbone, Marionette, $, _){
-   
+${1:MyApp}.module("${2:MyModule}", function($2, $1, Backbone, Marionette, \$, _){
     // Private Data And Functions
     // --------------------------
-
     var myData = "this is private data";
 
     var myFunction = function(){
@@ -13,15 +11,14 @@ ${1:appName}.module("${2:moduleName}", function(${2:moduleName}, ${1:appName}, B
 
     // Public Data And Functions
     // -------------------------
-    
-    ${2:moduleName}.someData = "public data";
+    $2.someData = "public data";
 
-    ${2:moduleName}.someFunction = function(){
-      console.log(${moduleName}.someData);
+    $2.someFunction = function(){
+      console.log($2.someData);
     };
 });
 ]]></content>
     <tabTrigger>bmm</tabTrigger>
     <scope>source.js,source.js.embedded.html</scope>
-    <description>Backbone.Marionette.Application.Module skeleton</description>
+    <description>Backbone.Marionette.Application.module skeleton</description>
 </snippet>

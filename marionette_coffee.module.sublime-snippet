@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:appName}.module("${2:moduleName}", (${2:moduleName}, ${1:appName}, Backbone, Marionette, $, _) ->
-   
+${1:MyApp}.module("${2:MyModule}", ($2, $1, Backbone, Marionette, \$, _) ->
     # Private Data And Functions
     # --------------------------
 
@@ -13,12 +12,13 @@ ${1:appName}.module("${2:moduleName}", (${2:moduleName}, ${1:appName}, Backbone,
     # Public Data And Functions
     # -------------------------
     
-    ${2:moduleName}.someData = "public data"
+    $2.someData = "public data"
 
-    ${2:moduleName}.someFunction = () ->
-      console.log(${moduleName}.someData)
+    $2.someFunction = () ->
+      console.log($2.someData)
+)
 ]]></content>
     <tabTrigger>bmmc</tabTrigger>
     <scope>source.coffee</scope>
-    <description>Backbone.Marionette.Application.Module skeleton</description>
+    <description>Backbone.Marionette.Application.module skeleton</description>
 </snippet>

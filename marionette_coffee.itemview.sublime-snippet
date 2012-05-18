@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:viewName} extends Backbone.Marionette.ItemView ->
-  ${0:properties}
+${1:MyView} = Backbone.Marionette.ItemView.extend(template: "#some-template")
 ]]></content>
     <tabTrigger>bmic</tabTrigger>
     <scope>source.coffee</scope>

@@ -4,6 +4,21 @@
         "completions":
         [
                 "Marionette",
+                "Backbone.Marionette",
+                "Marionette.Application",
+                "Marionette.AppRouter",
+                "Marionette.View",
+                "Marionette.ItemView",
+                "Marionette.CollectionView",
+                "Marionette.CompositeView",
+                "Marionette.Layout",
+                "Marionette.Region",
+                "Marionette.EventAggregator",
+                "Marionette.BindTo",
+                "Marionette.Renderer",
+                "Marionette.TemplateCache",
+                "Marionette.Callbacks",
+
                 "Application",
                 "AppRouter",
                 "View",
