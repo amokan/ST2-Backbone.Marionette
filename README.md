@@ -7,7 +7,7 @@
   
 This package for Sublime Text 2 adds snippets for Derick Bailey's [Backbone.Marionette](http://derickbailey.github.com/backbone.marionette/) library.  
 
-It makes a great companion to Tomasz Tunik's Backbone.js ST2 package and borrows heavily from it as well. (which can be found here [https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package])
+The Backbone.Marionette package makes a great companion to Tomasz Tunik's [Backbone.js ST2 package](https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package) and borrows heavily from it as well.
 
 ###Features
     
