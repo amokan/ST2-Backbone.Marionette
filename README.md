@@ -2,8 +2,9 @@
 # ST2-Backbone.Marionette
 
 ## [Backbone.Marionette](http://derickbailey.github.com/backbone.marionette/) snippets and tab completions for [Sublime Text 2](http://www.sublimetext.com/2)
-----
-
+----  
+*updated: May 18, 2012*
+  
 This package for Sublime Text 2 adds snippets for Derick Bailey's [Backbone.Marionette](http://derickbailey.github.com/backbone.marionette/) library.  
 
 It makes a great companion to Tomasz Tunik's Backbone.js ST2 package and borrows heavily from it as well. (which can be found here [https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package])
