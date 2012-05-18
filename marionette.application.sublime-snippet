@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:appName} = new Backbone.Marionette.Application();
+]]></content>
+    <tabTrigger>bma</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.Marionette Application</description>
+</snippet>

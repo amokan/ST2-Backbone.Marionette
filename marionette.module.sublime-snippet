@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:appName}.module("${2:moduleName}", function(${2:moduleName}, ${1:appName}, Backbone, Marionette, $, _){
+   
+    // Private Data And Functions
+    // --------------------------
+
+    var myData = "this is private data";
+
+    var myFunction = function(){
+      console.log(myData);
+    };
+
+    // Public Data And Functions
+    // -------------------------
+    
+    ${2:moduleName}.someData = "public data";
+
+    ${2:moduleName}.someFunction = function(){
+      console.log(${moduleName}.someData);
+    };
+});
+]]></content>
+    <tabTrigger>bmm</tabTrigger>
+    <scope>source.js,source.js.embedded.html</scope>
+    <description>Backbone.Marionette.Application.Module skeleton</description>
+</snippet>

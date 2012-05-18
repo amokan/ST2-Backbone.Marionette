@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:viewName} = Backbone.Marionette.ItemView.extend({${0:properties}});
+]]></content>
+    <tabTrigger>bmiv</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.Marionette ItemView</description>
+</snippet>

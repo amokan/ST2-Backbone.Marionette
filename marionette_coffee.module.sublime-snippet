@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:appName}.module("${2:moduleName}", (${2:moduleName}, ${1:appName}, Backbone, Marionette, $, _) ->
+   
+    # Private Data And Functions
+    # --------------------------
+
+    myData = "this is private data"
+
+    myFunction = () ->
+      console.log(myData)
+
+    # Public Data And Functions
+    # -------------------------
+    
+    ${2:moduleName}.someData = "public data"
+
+    ${2:moduleName}.someFunction = () ->
+      console.log(${moduleName}.someData)
+]]></content>
+    <tabTrigger>bmmc</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>Backbone.Marionette.Application.Module skeleton</description>
+</snippet>

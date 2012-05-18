@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:appName}.addRegions({${0:properties}});
+]]></content>
+    <tabTrigger>bmr</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.Marionette Region definition</description>
+</snippet>
