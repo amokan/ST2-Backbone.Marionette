@@ -1,21 +1,21 @@
 <snippet>
     <content><![CDATA[
-${1:MyApp}.module("${2:MyModule}", ($2, $1, Backbone, Marionette, \$, _) ->
-    # Private Data And Functions
-    # --------------------------
+${1:MyApp}.module("${2:MyModule}", ($2, $1) ->
+  # Private
+  # --------------------------
 
-    myData = "this is private data"
 
-    myFunction = () ->
-      console.log(myData)
+  # Public 
+  # -------------------------
+  
 
-    # Public Data And Functions
-    # -------------------------
-    
-    $2.someData = "public data"
 
-    $2.someFunction = () ->
-      console.log($2.someData)
+  # Initializers
+  # -------------------------
+  
+
+  
+  )  
 )
 ]]></content>
     <tabTrigger>bmmc</tabTrigger>
