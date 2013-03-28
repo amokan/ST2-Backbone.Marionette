@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:MyCompositeView} = Backbone.Marionette.CompositeView.extend({
+});
+]]></content>
+    <tabTrigger>bmcmv</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.Marionette CompositeView</description>
+</snippet>
