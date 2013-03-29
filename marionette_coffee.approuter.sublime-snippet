@@ -4,11 +4,11 @@ ${1:MyRouter} = Backbone.Marionette.AppRouter.extend(
 
   appRoutes:
     "some/route": "someMethod"
-    
+
 
 )
 ]]></content>
-    <tabTrigger>bmarc</tabTrigger>
+    <tabTrigger>bmar</tabTrigger>
     <scope>source.coffee</scope>
     <description>Backbone.Marionette AppRouter</description>
 </snippet>

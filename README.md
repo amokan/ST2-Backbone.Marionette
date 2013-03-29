@@ -28,14 +28,14 @@ Features
 
 ###CoffeeScript Scope
 
-    bmac - Marionette.Application
-    bmarc - Marionette.AppRouter
-    bmmc - Marionette.Application.Module
-    bmcc - Marionette.Controller
-    bmivc - Marionette.ItemView
-    bmcvc - Marionette.CollectionView
-    bmcmvc - Marionette.CompositeView
-    bmrc - Marionette addRegion()
+    bma - Marionette.Application
+    bmar - Marionette.AppRouter
+    bmm - Marionette.Application.Module
+    bmc - Marionette.Controller
+    bmiv - Marionette.ItemView
+    bmcv - Marionette.CollectionView
+    bmcmv - Marionette.CompositeView
+    bmr - Marionette addRegion()
 
 Installation
 ------------
