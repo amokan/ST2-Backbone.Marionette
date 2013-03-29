@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:MyView} = Backbone.Marionette.CompositeView.extend(template: "#some_template")
+]]></content>
+    <tabTrigger>bmcmvc</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>Backbone.Marionette CompositeView</description>
+</snippet>
