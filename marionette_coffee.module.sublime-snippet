@@ -5,20 +5,20 @@ ${1:MyApp}.module("${2:MyModule}", ($2, $1) ->
   # --------------------------
 
 
-  # Public 
+  # Public
   # -------------------------
-  
+
 
 
   # Initializers
   # -------------------------
-  
 
-  
-  )  
+
+
+  )
 )
 ]]></content>
-    <tabTrigger>bmmc</tabTrigger>
+    <tabTrigger>bmm</tabTrigger>
     <scope>source.coffee</scope>
     <description>Backbone.Marionette.Application.module skeleton</description>
 </snippet>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:MyApp} = new Backbone.Marionette.Application()
 ]]></content>
-    <tabTrigger>bmac</tabTrigger>
+    <tabTrigger>bma</tabTrigger>
     <scope>source.coffee</scope>
     <description>Backbone.Marionette Application</description>
 </snippet>

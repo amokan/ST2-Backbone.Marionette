@@ -3,7 +3,7 @@
 ${0:MyApp}.addRegions ->
   foo: "#foo"
 ]]></content>
-    <tabTrigger>bmrc</tabTrigger>
+    <tabTrigger>bmr</tabTrigger>
     <scope>source.coffee</scope>
     <description>Backbone.Marionette Region definition</description>
 </snippet>

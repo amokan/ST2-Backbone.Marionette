@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:MyLayout} = Backbone.Marionette.Layout.extend({
+  template: ""
+});
+]]></content>
+    <tabTrigger>bml</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.Marionette Layout</description>
+</snippet>
