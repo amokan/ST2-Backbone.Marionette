@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${0:MyApp}.addRegions ->
-  foo: "#foo"
+	foo: "#foo"
 ]]></content>
     <tabTrigger>bmr</tabTrigger>
     <scope>source.coffee</scope>
