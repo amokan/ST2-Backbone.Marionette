@@ -2,8 +2,8 @@
     <content><![CDATA[
 ${1:MyRouter} = Backbone.Marionette.AppRouter.extend(
 
-  appRoutes:
-    "some/route": "someMethod"
+	appRoutes:
+		"some/route": "someMethod"
 
 
 )
